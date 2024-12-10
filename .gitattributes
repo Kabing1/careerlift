@@ -1,0 +1,12 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Enforce Unix newlines
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Binary files
+*.{png,jpg,jpeg,gif,webp,svg,ico} binary
+*.{mp4,webm,ogg} binary
+*.{woff,woff2,eot,ttf,otf} binary
+*.{zip,gz,tar} binary
